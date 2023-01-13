@@ -1,35 +1,171 @@
-#work1{
-    max-height: 500px;
-    margin-left: 10px;
-    border-radius: 30px;
-
-}
-#content{
-    margin-left: 0px;
-}
-#city_img{
-    width: 100%;
-    max-height: 55vh;
-    min-height: 500px;
-    object-fit: cover;
-    border-radius: 0 0 10px 10px;
-    box-shadow: 0px 0px 5px .1px rgb(0, 0, 0);
+body{
+    background-color: rgba(253, 253, 239, 0.733);
     
 }
+
+
+/* Navbar*/
 #Navbar{
     display:flex;
     position:static;
-
+    border: 2px solid black;
+    align-items: center;
 }
+#nav{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+#comp_name{
+    padding-right: 30px;
+    justify-content: center;
+}
+#logo{
+    height: 100px;
+    border-radius: 50px;
+    justify-content: center;
+}
+
+
 #links{
-    margin-left: auto;
     display:flex;
+    justify-content: center;
 
 }
-h4{
-    padding-right: 20px;
+#link{
+    position:static;
+
 }
-h4:hover{
-    font-size: 26px;
-    color:antiquewhite;
+h3{
+    padding-right: 20px;
+    
+    font-family: erif;
+    position:static;
+}
+h3:hover{
+    font-size: 32px;
+    color:rgba(0, 215, 253, 0.822);
+}
+
+/* City Image and title area */
+#section_1{
+    width: 100%;
+    min-height: 1000px;
+    background-image: url("../images/image2.webp");
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; /* Center the image */
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+    
+    
+
+}
+#section_1_text{
+    background-color: rgba(84, 166, 196, 0.493);
+    box-shadow: 5px 10px 50px 10px rgba(86, 154, 179, 0.322);
+    border-radius: 10px;
+}
+#section_1_text:hover{
+    background-color: rgba(75, 120, 136, 0.493);
+    border-radius: 10px;
+}
+/*
+Add to sections at end for fadein animations
+    animation: fadeIn 3s;
+    -webkit-animation: fadeIn 3s;
+    -moz-animation: fadeIn 3s;
+    -o-animation: fadeIn 3s;
+    -ms-animation: fadeIn 3s;     
+*/
+.p-2 {
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px #000000;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: .15; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: .3; }
+    100% { opacity: 1; }
+}
+
+#contact_button{
+    color:rgb(255, 255, 255);
+    background-color:rgba(0, 0, 0, 0.356);
+    font-size:30px;
+    border: 1px solid black;
+    font-family: sans-serif;
+}
+#contact_button:hover{
+    font-size: 32px;
+    background-color: rgba(0, 132, 255, 0.774);
+}
+
+
+
+/* Carousel Images */
+#carousel_container{
+    margin:5px;
+    
+}
+#carousel{
+    border-radius: 5px 5px 5px 5px;
+
+}
+#living_room,#bedroom,#bathroom{
+    width: inherit;
+    margin-left: 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+/* Content and text*/
+
+#section2_text{
+    border-bottom: 5px solid rgb(109, 109, 109);
+    border-radius: 0px 5px 5px 0px;
+    padding: 30px;
+}
+.section2_para{
+    padding-left: 30px;
+    font-size: 22px;
+    margin-top: 20px;
+    font-family: serif;
+    
+}
+#list_services{
+    font-size: 22px;
+    margin-left: 30px;
+}
+#section2{
+    width:100%;
+    margin-bottom: 10px;
+    
+}
+
+h1{
+    font-weight: bold;
+    font-family: serif;
 }
