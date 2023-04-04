@@ -78,7 +78,7 @@ Add to sections at end for fadein animations
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px 5px #000000;
     font-family: serif;
-    font-size: 3vh;
+    font-size: 20px;
 }
   
   @keyframes fadeIn {
