@@ -78,7 +78,7 @@ Add to sections at end for fadein animations
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px 5px #000000;
     font-family: serif;
-    font-size: max(2.9vw);
+    font-size:26px;
     
   }
   
@@ -179,15 +179,14 @@ h1{
 }
 
 #scroll_button{
-    color:rgb(14, 13, 13);
+    color:rgb(0, 0, 0);
     font-size:24px;
     font-family: serif;
     
 }
 #scroll_button:hover{
-    color:rgba(238, 235, 235, 0.979);
-    background-color:rgb(247, 216, 198);
-    font-size:30px;
+    color:rgba(0, 0, 0, 0.979);
+    font-size:26px;
     font-family: serif;
     
 }
