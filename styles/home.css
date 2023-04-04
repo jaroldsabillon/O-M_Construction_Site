@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(253, 253, 239, 0.733);
+    background-color: rgba(255, 255, 255, 0.733);
     
 }
 
@@ -8,7 +8,6 @@ body{
 #Navbar{
     display:flex;
     position:static;
-    border: 2px solid black;
     align-items: center;
 }
 #nav{
@@ -60,20 +59,12 @@ h3:hover{
     justify-content:center;
     
 
-    
-    
-    
-
 }
 #section_1_text{
-    background-color: rgba(84, 166, 196, 0.493);
+    background-color: rgba(73, 134, 156, 0.301);
     box-shadow: 5px 10px 50px 10px rgba(86, 154, 179, 0.322);
     border-radius: 10px;
     font-family: serif;
-}
-#section_1_text:hover{
-    background-color: rgba(75, 120, 136, 0.493);
-    border-radius: 10px;
 }
 /*
 Add to sections at end for fadein animations
@@ -87,6 +78,8 @@ Add to sections at end for fadein animations
     color:rgb(255, 255, 255);
     text-shadow: 2px 2px 5px #000000;
     font-family: serif;
+    font-size: max(2.9vw);
+    
   }
   
   @keyframes fadeIn {
@@ -118,7 +111,6 @@ Add to sections at end for fadein animations
     color:rgb(255, 255, 255);
     background-color:rgba(0, 0, 0, 0.356);
     font-size:30px;
-    border: 1px solid black;
     font-family: serif;
 }
 #contact_button:hover{
@@ -131,23 +123,28 @@ Add to sections at end for fadein animations
 /* Content and text*/
 
 #section2_text{
-    
-    padding: 30px;
+    margin-top:30px;
+}
+#bottom_text_2{
+    margin-top: 50px;
 }
 .section2_para{
     padding-left: 30px;
-    font-size: 22px;
-    margin-top: 20px;
+    font-size: 26px;
+    margin-top: 30px;
     font-family: serif;
     
 }
 #list_services{
-    font-size: 22px;
+    font-family: serif;
+    font-size: 20px;
+    margin-top:20px;
+    padding-bottom:0px;
     margin-left: 30px;
 }
 #section2{
     width:100%;
-    border-top: 5px solid rgb(68, 68, 68);
+    border-top:solid black 1px;
     
 }
 
@@ -164,21 +161,47 @@ h1{
 #section4{
 
 }
-#CarouselExampleCaptions{
+/* #CarouselExampleCaptions{
     min-height: 480px;
 }
 #min_image{
     min-height:480px;
-}
+} */
+
 #section3{
-    height:500px;
+    height:300px;
     font-size:50px;
     font-family: serif;
     align-items: center;
-    border-bottom: 5px solid rgb(68, 68, 68);
-    border-top: 5px solid rgb(68, 68, 68);
-    background-color: #64646425;
-
+    background-color: #ffffff25;
     justify-content: center;
+    background-image: image("./backgrounds/wooden_bg/jpeg");
+}
+
+#scroll_button{
+    color:rgb(14, 13, 13);
+    font-size:24px;
+    font-family: serif;
     
+}
+#scroll_button:hover{
+    color:rgba(238, 235, 235, 0.979);
+    background-color:rgb(247, 216, 198);
+    font-size:30px;
+    font-family: serif;
+    
+}
+#contact_section{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#number{
+    color: rgb(211, 179, 0);
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;   
+    text-shadow: 0px 1px 5px #9b9101;
+}
+#number:hover{
+    font-size: 45px;
 }
